@@ -10,6 +10,6 @@
       }
    </style>
    <body>
-      <h1>About Culture</h1>
+      <h1>Our Cultures at <?= $name ?></h1>
    </body>
 </html>

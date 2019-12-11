@@ -10,6 +10,8 @@
       }
    </style>
    <body>
+      <li><a href="/">Home</a></li>
+      <li><a href="about/culture">About Culture</a></li>
       <ul>
          <?php foreach($tasks as $key => $task) : ?>
             <ul>

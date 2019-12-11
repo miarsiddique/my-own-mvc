@@ -1,9 +1,7 @@
 <?php
 
-$quirey =  require 'bootstrap.php';
+require 'core/bootstrap.php';
 
-$routes = [
-   '' => 'controllers/index.php',
-   'about-us' => 'controllers/about.php',
-   'contact-us' => 'controllers/contact.php',
-];
+$router = Router::load('routes.php');
+
+require $router->direct(Request::uri());
