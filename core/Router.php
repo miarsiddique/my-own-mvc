@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-class Router 
+class Router
 {
     protected $routes = [];
 
@@ -17,7 +17,7 @@ class Router
     {
         $this->routes = $routes;
     }
-    
+
 
     public function direct($uri)
     {

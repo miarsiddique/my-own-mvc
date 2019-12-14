@@ -1,15 +1,4 @@
-<html>
-   <head>
-      <title>contact us</title>
-   </head>
-   <style>
-      h1{
-         background: grey;
-         padding: 2em;
-         text-align: center;
-      }
-   </style>
-   <body>
+<?php require('partials/header.php'); ?>
+
       <h1>Contact  Us</h1>
-   </body>
-</html>
+<?php require('partials/footer.php'); ?>

@@ -1,15 +1,4 @@
-<html>
-   <head>
-      <title>about Vue.use(plugin)</title>
-   </head>
-   <style>
-      h1{
-         background: grey;
-         padding: 2em;
-         text-align: center;
-      }
-   </style>
-   <body>
+<?php require('partials/header.php'); ?>
+
       <h1>Our Cultures at <?= $name ?></h1>
-   </body>
-</html>
+<?php require('partials/footer.php'); ?>
