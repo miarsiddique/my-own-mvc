@@ -1,5 +1,5 @@
 <?php
 $quirey = $app['database'];
-$tasks = $quirey->selectAll('todos');
+$users = $quirey->selectAll('users');
 
 require 'views/index.view.php';
